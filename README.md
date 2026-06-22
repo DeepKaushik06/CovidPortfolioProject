@@ -1,7 +1,7 @@
 # Data Analyst Portfolio Project: SQL Data Exploration (MySQL)
 
 ## Project Overview
-This repository contains a comprehensive SQL script demonstrating advanced data exploration and data preparation techniques using global COVID-19 datasets (tracking metrics for deaths and vaccinations). Inspired by Alex The Analyst's data analyst portfolio series, this project adapts the data pipeline and queries specifically for **MySQL Workbench on macOS**. The core focus is on transforming, filtering, and structuring raw data to extract meaningful metrics and stage clean, optimized tables for future business intelligence (BI) visualizations.
+This repository contains a comprehensive SQL script demonstrating advanced data exploration and data preparation techniques using global COVID-19 datasets (tracking metrics for deaths and vaccinations). This project adapts the data pipeline and queries specifically for **MySQL Workbench on macOS**. The core focus is on transforming, filtering, and structuring raw data to extract meaningful metrics and stage clean, optimized tables for future business intelligence (BI) visualizations.
 
 ## SQL Skills Showcased
 * **Data Cleansing & Filtering:** Handling database-specific syntax variations by converting SSMS null-checks into MySQL-compatible empty string filters (`where continent != ''`) to isolate sovereign nations from continent totals.
