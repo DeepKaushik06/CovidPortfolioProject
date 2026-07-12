@@ -9,7 +9,7 @@ order by 1,2;
 Select Location, date, total_cases, total_deaths, (total_deaths/total_cases) * 100 as Death_Percentage
 From covidDeaths
 Where Location like'%states%'
-Rrder by 1,2;
+order by 1,2;
 
 
 -- Looking at Total Cases Vs Population
